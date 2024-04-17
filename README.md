@@ -80,7 +80,6 @@ Iterative refinement and validation of our predictive models are essential for e
 
 [3] M. Friedman, "Disease Symptom Knowledge Base," Columbia University Department of Biomedical Informatics, [Online]. Available: https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/.
 
+<img width="1189" alt="Screenshot 2024-04-09 at 12 22 33 AM" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/3a7959e3-1e8c-4774-a222-32a5e082fe3c">
 
-
-![image](https://github.com/vk1309/DS5500Capstone/assets/39329373/ff3faead-9c5c-4ec0-b838-ff8a49ac19a4)
 
