@@ -24,10 +24,6 @@ One of the primary objectives of this project is to bridge the gap between struc
 
 For this project MIMIC-III Dataset was used, employing a selection of five tables from a total of thirty available tables, as outlined in the schema provided (Figure 1). Through a systematic merging process, the resulting database comprised approximately 3.9 million records. Recognizing the constraints posed by computational limitations, a strategic refinement approach was adopted. Consequently, the focus shifted towards filtering the diagnosis and procedures tables, specifically targeting textual data and corresponding diagnoses. A deliberate curation process yielded 4000 evenly distributed data points for subsequent analysis. Notably, this analysis prioritized two key columns: 'Text', housing clinical notes, and 'Diagnosis', denoting the associated diseases.
 
-    <img width="307" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/d8355bc6-6f41-4cd6-a147-a2ca0cb41c4a">
-
-    <img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/36d67108-34d1-422d-bf25-48c05032b12f">
-
 The next data pre-processing steps included: 
 
 1.	Correcting spelling mistakes in disease or symptom names and their codes. 
@@ -37,21 +33,17 @@ The next data pre-processing steps included:
 5.	Compiling a comprehensive list of all symptoms. 
 6.	Assigning Boolean values (0 or 1) to each symptom for every disease, indicating its  presence or absence. 
 7.	Adding the corresponding disease in the final column. The dataset obtained after final transformations is shown below in Figure 3.
-     <img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/bf207290-0e3d-401b-a739-eb914ab7d380">
+
 
 2.	Exploratory Data Analysis
 
 EDA aims to perform initial investigations on data before formal modelling and graphical representations and visualisations, in order to discover patterns, look over assumptions, and test hypothesis. The summarised information on main characteristics and hidden trends in data can help the doctor to identify concern areas and problems, and the resolution of these can boost their accuracy in diagnosing diseases. Below is the spread of diseases in the dataset.
 
-     <img width="578" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/bd523004-446c-4719-8263-ff8cee126624">
-     <img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/d0ed98e1-37d3-4ff5-a2b6-76aaab977bbe">
 
 Almost all symptoms have weak linear correlations, which is indicative that these symptoms do not come hand-in-hand.
-     <img width="542" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/503cb285-4619-4e1a-af08-0b44fd338ebb">
 
 The above charts give us an idea about the patient’s ethnicity. We can see that the dataset dominated by the “White” ethnicity, and other popular ethnicities include “Black/ African American” and “Hispanic or Latino”. 
 
-     <img width="451" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/c9fa6435-8c54-49b2-b657-be5b4f4afc83">
 
 The above graphs summarize the top 5 diagnosis in the dataset. As we can observe, the most entries in the dataset are for Newborn, other meaningful diagnosis are Pneumonia, Sepsis, Congestive Heart Failure and Coronary Artery Disease. We have adequate data for analysis. 
 
@@ -71,27 +63,6 @@ Fig. 11: Feature Importance for Decision Tree
 The symptom of 'fatique' is found to have the significantly largest predictive power of 0.1579.
 Random Forest classifier will combine multiple base models of Decision Trees during its training period, using the strategy of ensemble machine learning methods. This will construct a single optimal predictive model, with the criterion of entropy which utilises information gain to iteratively select the next node according to higher feature importance to optimise the quality of splits. The minimum number of leaves are restricted to 2. The final output may be the mode class or the mean prediction of individual trees.
 
-4.	Results
-                           Fig. 12: Disease Prediction Based on Clinical Note as Input
-From the above, it is observed that for the clinical note as an input, the symptoms are extracted as keywords, and based on the symptoms, the models give disease predictions and final prediction is selected to be the mode of the predictions made by the models. 
-
-
-
-
-
-
-
-
-
-
-
-	
-                      Fig. 13: Predicted and Actual Values of Diseases
-Above figure shows the predictions and actual values of diseases and it is seen that the model performs well in classifying the diseases.
-    Fig. 14: Training and Validation Losses for K– Fold Cross Validation
-Fig.15: Validation Accuracy for K– Fold Cross Validation
-Above charts are for k-fold cross validation. As observed, the training and validation losses minimize and become low as the number of epochs increase and the validation accuracy increases with number of epochs. 
-
 ## Conclusion
 In conclusion, this project represents a significant advancement in healthcare analytics by leveraging unstructured clinical notes for disease prediction. By using Natural Language Processing (NLP) techniques and machine learning algorithms, this project has successfully bridged the gap between structured and unstructured healthcare data, unlocking valuable insights hidden within free-text medical records.
 
@@ -104,12 +75,12 @@ Iterative refinement and validation of our predictive models are essential for e
 
 ## References 
 [1] D. Singh, V. Kumar, and R. G. Qiu, "Patients’ Disease Risk Predictive Modeling using MIMIC Data”, Procedia Computer Science, vol. 170, pp. 401-408, 2020. [Online]. Available: https://doi.org/10.1016/j.procs.2020.02.271.
+
 [2] M. Saeed, M. Villarroel, A. T. Reisner, G. Clifford, L. Lehman, G. Moody, T. Heldt, T. Kyaw, B. Moody, R. G. Mark. (2016). "Multiparameter Intelligent Monitoring in Intensive Care III (MIMIC-III): A public-access intensive care unit database," [Online]. Available: https://physionet.org/content/mimiciii/1.4/.
+
 [3] M. Friedman, "Disease Symptom Knowledge Base," Columbia University Department of Biomedical Informatics, [Online]. Available: https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/.
 
 
 
 ![image](https://github.com/vk1309/DS5500Capstone/assets/39329373/ff3faead-9c5c-4ec0-b838-ff8a49ac19a4)
 
-
-<img width="1189" alt="Screenshot 2024-04-09 at 12 22 33 AM" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/b210ad41-5fb1-454b-8378-6fc27b03302d">
