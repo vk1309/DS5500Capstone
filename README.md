@@ -26,7 +26,8 @@ For this project MIMIC-III Dataset was used, employing a selection of five table
 
 <img width="307" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/d8e65c8c-a328-4f9b-be9e-f4c4e68603a4">
 <img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/38b52aec-3dca-414c-9709-d3e9cbfc32c8">
-<br>
+
+
 
 The next data pre-processing steps included: 
 
@@ -41,6 +42,9 @@ The next data pre-processing steps included:
 2.	Exploratory Data Analysis
 
 EDA aims to perform initial investigations on data before formal modelling and graphical representations and visualisations, in order to discover patterns, look over assumptions, and test hypothesis. The summarised information on main characteristics and hidden trends in data can help the doctor to identify concern areas and problems, and the resolution of these can boost their accuracy in diagnosing diseases. Below is the spread of diseases in the dataset.
+
+<img width="578" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/a81df3e3-02d4-4481-865d-aac306b2e5d9">
+<img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/b419a796-9c18-4634-94a9-2f8bc6010cec">
 
 
 Almost all symptoms have weak linear correlations, which is indicative that these symptoms do not come hand-in-hand.
