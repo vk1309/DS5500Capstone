@@ -24,6 +24,11 @@ One of the primary objectives of this project is to bridge the gap between struc
 
 For this project MIMIC-III Dataset was used, employing a selection of five tables from a total of thirty available tables, as outlined in the schema provided (Figure 1). Through a systematic merging process, the resulting database comprised approximately 3.9 million records. Recognizing the constraints posed by computational limitations, a strategic refinement approach was adopted. Consequently, the focus shifted towards filtering the diagnosis and procedures tables, specifically targeting textual data and corresponding diagnoses. A deliberate curation process yielded 4000 evenly distributed data points for subsequent analysis. Notably, this analysis prioritized two key columns: 'Text', housing clinical notes, and 'Diagnosis', denoting the associated diseases.
 
+<img width="307" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/d8e65c8c-a328-4f9b-be9e-f4c4e68603a4">
+<img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/38b52aec-3dca-414c-9709-d3e9cbfc32c8">
+
+
+
 The next data pre-processing steps included: 
 
     1.	Correcting spelling mistakes in disease or symptom names and their codes. 
@@ -57,8 +62,7 @@ Support Vector Classifier is a discriminative classifier i.e. when given a label
 
 Decision tree is constructed based on parameters of best split strategy, and the criterion of entropy which utilises information gain to iteratively select the next node according to higher feature importance to optimise the quality of splits. The minimum number of leaves are restricted to 2. The outputs are the classification rules as extracted from the decision tree. These are determined by the flow sequence from the root node and the corresponding branches to the internal or decision nodes, then stopping when the leaf node representing the class label is reached.
 
-Fig. 10: Splitting in Decision Tree
-Fig. 11: Feature Importance for Decision Tree
+
 The symptom of 'fatique' is found to have the significantly largest predictive power of 0.1579.
 Random Forest classifier will combine multiple base models of Decision Trees during its training period, using the strategy of ensemble machine learning methods. This will construct a single optimal predictive model, with the criterion of entropy which utilises information gain to iteratively select the next node according to higher feature importance to optimise the quality of splits. The minimum number of leaves are restricted to 2. The final output may be the mode class or the mean prediction of individual trees.
 
