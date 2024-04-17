@@ -26,8 +26,7 @@ For this project MIMIC-III Dataset was used, employing a selection of five table
 
 <img width="307" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/d8e65c8c-a328-4f9b-be9e-f4c4e68603a4">
 <img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/38b52aec-3dca-414c-9709-d3e9cbfc32c8">
-
-
+<br>
 
 The next data pre-processing steps included: 
 
