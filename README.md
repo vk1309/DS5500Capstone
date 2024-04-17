@@ -26,14 +26,13 @@ For this project MIMIC-III Dataset was used, employing a selection of five table
 
 The next data pre-processing steps included: 
 
-1.	Correcting spelling mistakes in disease or symptom names and their codes. 
-2.	Removing duplicate symptoms associated with the same or similar disease names. 
-3.	Separating multiple symptoms listed within the same row. 
-4.	Eliminating irrelevant codes assigned to diseases and symptoms. 
-5.	Compiling a comprehensive list of all symptoms. 
-6.	Assigning Boolean values (0 or 1) to each symptom for every disease, indicating its  presence or absence. 
-7.	Adding the corresponding disease in the final column. The dataset obtained after final transformations is shown below in Figure 3.
-
+    1.	Correcting spelling mistakes in disease or symptom names and their codes. 
+    2.	Removing duplicate symptoms associated with the same or similar disease names. 
+    3.	Separating multiple symptoms listed within the same row. 
+    4.	Eliminating irrelevant codes assigned to diseases and symptoms. 
+    5.	Compiling a comprehensive list of all symptoms. 
+    6.	Assigning Boolean values (0 or 1) to each symptom for every disease, indicating its  presence or absence. 
+    7.	Adding the corresponding disease in the final column.
 
 2.	Exploratory Data Analysis
 
