@@ -54,6 +54,9 @@ Almost all symptoms have weak linear correlations, which is indicative that thes
 
 The above charts give us an idea about the patient’s ethnicity. We can see that the dataset dominated by the “White” ethnicity, and other popular ethnicities include “Black/ African American” and “Hispanic or Latino”. 
 
+<img width="458" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/9256a7b4-210d-4712-b701-bd12135d8b7b">
+
+
 
 The above graphs summarize the top 5 diagnosis in the dataset. As we can observe, the most entries in the dataset are for Newborn, other meaningful diagnosis are Pneumonia, Sepsis, Congestive Heart Failure and Coronary Artery Disease. We have adequate data for analysis. 
 
