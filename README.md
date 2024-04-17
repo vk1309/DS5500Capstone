@@ -45,9 +45,12 @@ EDA aims to perform initial investigations on data before formal modelling and g
 
 <img width="578" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/a81df3e3-02d4-4481-865d-aac306b2e5d9">
 <img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/b419a796-9c18-4634-94a9-2f8bc6010cec">
+<img width="542" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/0ab3703c-7940-4b2c-a166-6685ff3b236c">
 
 
 Almost all symptoms have weak linear correlations, which is indicative that these symptoms do not come hand-in-hand.
+<img width="451" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/fb0c262c-52c7-4d97-80ea-7e5d83e7ca1f">
+
 
 The above charts give us an idea about the patient’s ethnicity. We can see that the dataset dominated by the “White” ethnicity, and other popular ethnicities include “Black/ African American” and “Hispanic or Latino”. 
 
