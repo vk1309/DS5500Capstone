@@ -67,9 +67,11 @@ The target class labels for both datasets have almost even distribution. It is a
 The machine Learning algorithms of Support Vector Classifier (SVC), Decision Tree (DT), and Random Forest (RF), are chosen to fit to the dataset.
 Support Vector Classifier is a discriminative classifier i.e. when given a labelled training data, the algorithm tries to find an optimal hyperplane that accurately separates the samples into different categories in hyperspace.
 
-
+<img width="336" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/629d7b83-cf7b-4815-8a6b-74d1e263ecf0">
 
 Decision tree is constructed based on parameters of best split strategy, and the criterion of entropy which utilises information gain to iteratively select the next node according to higher feature importance to optimise the quality of splits. The minimum number of leaves are restricted to 2. The outputs are the classification rules as extracted from the decision tree. These are determined by the flow sequence from the root node and the corresponding branches to the internal or decision nodes, then stopping when the leaf node representing the class label is reached.
+<img width="419" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/592a55fd-e548-4ea2-a314-89b419331b21">
+<img width="452" alt="image" src="https://github.com/vk1309/DS5500Capstone/assets/39329373/8ecf8ce4-a975-424c-8337-6bd8b9cee24e">
 
 
 The symptom of 'fatique' is found to have the significantly largest predictive power of 0.1579.
